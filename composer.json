@@ -1,0 +1,7 @@
+{
+        "name"        : "Orthodox-Union/run_activate_plugin",
+        "description" : "Automatically activate wp plugins",
+        "type"        : "wordpress-muplugin",
+        "version"     : "1.0"
+}
+        
