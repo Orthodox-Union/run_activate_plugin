@@ -12,7 +12,7 @@ function run_activate_plugin( $plugin ) {
     
     if ( !in_array( $plugin, $current ) ) {
         // Make sure the plugin is loaded, so we have the activation hooks
-        require_once(dirname(__FILE__).'/../plugins/facebook-gallery/gallery.php');
+        require_once(WP_PLUGIN_DIR.'/'.$plugin);
 
         $current[] = $plugin;
         sort( $current );
